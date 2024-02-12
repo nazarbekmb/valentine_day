@@ -1,0 +1,393 @@
+/* Этот селектор применяется ко всем элементам на веб-странице */
+*, 
+:before,
+:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Этот класс применяется для скрытия элементов */
+.hide {
+    display: none;
+}
+
+/* Стили для центрированных блоков на главной странице */
+.center {
+    position: relative;
+    margin: 8% auto;
+    /* используйте изображение с именем "bg.webp" как фон. */
+    /* Позиция изображение будет располагаться по центру элемента. */
+    /* размер фонового изображения "100%" */
+    /* изображение будет повторяться по горизонтали и вертикали */
+    border-radius: 14px;
+    padding: 70px 10px 10px 10px;
+    text-align: center;
+    /* текст будет выровнен по центру горизонтально. */
+    /* высота = 470px */
+    /* ширина = 330px */
+    align-items: center;
+    align-content: center;
+    /* цвет текста = #c87941  */
+}
+
+/* Стили для центрированных блоков на второй странице */
+.center2 {
+    position: relative;
+    margin: 8% auto;
+    /* background-image: url('bg.webp'); */
+    /* используйте изображение с именем "bg.webp" как фон. */
+    /* Позиция изображение будет располагаться по центру элемента. */
+    /* размер фонового изображения "100%" */
+    /* изображение будет повторяться по горизонтали и вертикали */
+    border-radius: 14px;
+    padding: 40px 12px 20px 12px;
+    /* текст будет выровнен по центру горизонтально. */
+    /* высота = 470px */
+    /* ширина = 330px */
+    align-items: center;
+    align-content: center;
+    /* цвет текста = #c87941  */
+}
+
+.center2 span {
+    /* насыщенность шрифта для текста = 400 */
+    font-family: sans-serif;
+}
+
+/* Стили для изображений */ 
+.uwu {
+
+    width: 70%;
+    height: auto;
+}
+
+/* Стили для изображений на второй странице */
+.uwu2 {
+    margin-top: 26px;
+    width: 70%;
+    height: auto;
+}
+
+/* Стили для текстового поля ввода имени */
+.inputnama {
+    margin-top: 40px;
+    /* ширина = 80% */
+    padding: 8px;
+    border: 2px solid #c87941;
+    /* background: #f9f9f9; */
+    /* цвет фона = #f9f9f9 */
+    color: #c87941;
+    border-radius: 8px;
+    outline: none !important;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.inputnama::placeholder {
+    /* цвет текста = #c87941  */
+}
+
+/* Стили для кнопок */
+.tombol {
+    margin-top: 10px;
+    /* ширина = 80%; */
+    padding: 8px;
+    border: 2px solid #c87941;
+    /* цвет фона = #f9f9f9 */
+    border-radius: 8px;
+    outline: none !important;
+    /* насыщенность шрифта для текста = bold */
+    font-family: sans-serif;
+}
+
+.tombol:hover {
+    cursor: pointer;
+    border: 2px solid #c87941;
+    /* цвет фона = #c87941 */
+    /* цвет текста = #f9f9f9  */
+}
+
+/* Стили для кнопок второго типа */
+.tombol2 {
+    margin-top: 10px;
+    /* ширина = 80%; */
+    padding: 8px;
+    border: 2px solid #ea97ad;
+    /* цвет фона = #f9f9f9 */
+    /* цвет текста = #ea97ad  */
+
+    border-radius: 8px;
+    outline: none !important;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tombol2:hover {
+    cursor: pointer;
+    border: 2px solid #ea97ad;
+    /* цвет фона = #ea97ad */
+    color: #f9f9f9;
+}
+
+/* Стили для кнопки "назад" */
+.kembali {
+    /* ширина = 100%; */
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    font-size: 24px;
+    top: 10px;
+    /* текст будет выровнен по левому краю горизонтально. */
+}
+
+/* Стили для нижнего блока */
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    /*  размер шрифта для текста = 30px */
+    bottom: 10px;
+    text-align: center;
+}
+
+.footer .kiri {
+    margin-left: 10px;
+}
+
+/* Стили для фиксированного блока с фоном */
+.spidey {
+    background: #6d326d;
+    font-family: OpenSans-Regular, sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+/* Дополнительные стили для элементов внутри фиксированного блока */
+.spidey .dalemnya_halaman {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.spidey h1 {
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.spidey .btn_nav {
+    background: #002a32;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 17px 30px;
+    width: 146px;
+}
+
+.spidey .btn_nav:focus,
+.spidey .btn_nav:active {
+    outline: none;
+}
+
+.spidey a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.spidey a:hover {
+    text-decoration: underline;
+}
+
+/* Анимация появления содержимого */
+.animate_content {
+    animation: animate 3s ease;
+}
+
+.fadeIn {
+    z-index: 10;
+}
+
+.home {
+    background: #c87941;
+}
+
+.spidey2 {
+    background: #ea97ad;
+}
+
+@media only screen and (max-width: 767px) {
+    .dalemnya_halaman h1 {
+        margin-top: 100px;
+    }
+}
+
+@-moz-keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-webkit-keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-o-keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes animate {
+    10% {
+        transform: scale(1, 0.002);
+    }
+    35% {
+        transform: scale(0.2, 0.002);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.2, 0.002);
+        opacity: 0;
+    }
+    85% {
+        transform: scale(1, 0.002);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@media (min-width: 300px) and (max-width: 649px) {
+    .tengah {
+        position: relative;
+        margin: 25% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 50px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #c87941;
+    }
+    
+    .tengah2 {
+        position: relative;
+        margin: 25% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 35px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #ea97ad;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 749px) {
+    .tengah {
+        position: relative;
+        margin: 15% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 50px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #c87941;
+    }
+    
+    .tengah2 {
+        position: relative;
+        margin: 15% auto;
+        background-image: url('bg.webp');
+        background-position: center;
+        background-size: 100%;
+        background-repeat: repeat;
+        border-radius: 14px;
+        padding: 35px 10px 10px 10px;
+        text-align: center;
+        height: 470px;
+        width: 330px;
+        align-items: center;
+        align-content: center;
+        color: #ea97ad;
+    }
+}

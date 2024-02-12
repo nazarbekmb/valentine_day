@@ -52,7 +52,7 @@ $('.kehalaman2').click(function() {
 });
 
 var i = 0;
-var txt = "I spent thousands of nights dreaming alone, Waiting for someone to hug me, Passing through hundreds of dreams stored in my heart, Alone in the middle of the fake darkness. Thank you for being there for me, accompanying my loneliness and being a light in my darkness, I Love You";
+var txt = "ǵashyqtar kúni qutty bolsyn! Sizge shynaıy mahabbatty bilýińizdi tileımin. Jalǵyzdyq pen qaıǵy týraly umytý. Jandy jańa sezimderge, áserlerge jáne oqıǵalarǵa ashyńyz. Ózgeristerden qorqýdy toqtatyńyz. Men seniń mahabbatty tolyq sezingenińdi qalaımyn. Barshańyzǵa mahabbat, úılesimdilik, ózara qarym-qatynas, adaldyq tileımin!";
 var speed = 200;
 
 function JalaninTeks() {
